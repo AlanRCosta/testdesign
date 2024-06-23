@@ -1,0 +1,25 @@
+.logo {
+  max-width: 200px;
+  transition: transform 0.3s ease-in-out;
+  opacity: 0; /* Inicialmente invisível */
+  animation: fadeIn 2s forwards; /* Animação para aparecer */
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8); /* Inicialmente menor */
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1); /* Volta ao tamanho original */
+  }
+}
+
+.header-img img {
+  border-radius: 20px;
+}
+
+.footer-img img {
+  border-radius: 20px;
+}
