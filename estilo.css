@@ -1,3 +1,11 @@
+/* Variáveis de cores */
+:root {
+  --cor-primaria: #ff204e;
+  --cor-secundaria: #a0153e;
+  --cor-terciaria: #734079;
+  --cor-quaternaria: #ffca16;
+}
+
 .logo {
   max-width: 200px;
   transition: transform 0.3s ease-in-out;
@@ -16,10 +24,175 @@
   }
 }
 
+.footer-logo {
+  max-width: 200px;
+}
+
 .header-img img {
   border-radius: 20px;
 }
 
 .footer-img img {
   border-radius: 20px;
+}
+
+.navbar-nav {
+  background: var(--cor-primaria);
+}
+
+#widget-busca-6.busca-widget.widget-busca-3.center-div .busca-submit-tratado {
+  &&& {
+    background-color: var(
+      --cor-primaria
+    ) !important; /* Utilizado para sobrescrever outro important.*/
+  }
+}
+
+.destaque-6 {
+  div.destaque-valores,
+  .destaque-tarja-top,
+  #detaque-mais-info {
+    background: var(--cor-primaria);
+  }
+}
+
+.lias_201390 {
+  background-color: var(--cor-primaria);
+}
+
+.btn-site {
+  background-color: var(--cor-primaria);
+}
+
+.favoritos .fav-label {
+  background-color: var(--cor-terciaria);
+}
+
+#widget-busca-6.busca-widget.widget-busca-3.center-div
+  .tab-content
+  .transacao-group
+  .btn-transacao.btn-ativo {
+  &&& {
+    background-color: var(
+      --cor-terciaria
+    ) !important; /* Utilizado para sobrescrever outro important.*/
+  }
+}
+
+#widget-busca-6.busca-widget.widget-busca-3.center-div
+  .busca-form
+  .container-input-busca-livre
+  .container-btn-busca-livre
+  .btn-site {
+  &&& {
+    background-color: var(
+      --cor-terciaria
+    ) !important; /* Utilizado para sobrescrever outro important.*/
+  }
+}
+
+#destaque-lancamento
+  #carouselLancamento
+  .destaque-emp
+  .content-lancamento
+  .destaque-emp-tipo {
+  color: var(--cor-quaternaria);
+}
+
+.btn-site:hover {
+  background-color: var(--cor-secundaria);
+}
+
+.lias_231116 .calculadora-digital-2__header {
+  background-color: var(--cor-primaria);
+}
+
+.lias_201394 .carousel-cell .card {
+  .card-rodape .card-leia-mais {
+    background: var(--cor-primaria);
+  }
+
+  .card-foto .data-block {
+    background: var(--cor-secundaria);
+  }
+}
+
+.lias_201414 .links-3 {
+  color: var(--cor-primaria);
+}
+
+.data-block {
+  background: var(--cor-primaria);
+}
+
+.lias_201395 .widgets-div.widget-cliente .carousel-control {
+  background: var(--cor-secundaria);
+  border: var(--cor-primaria);
+}
+
+.footer .widget-texto a.btn-site.destaque-emp-btn.pull-right {
+  span,
+  i {
+    &&& {
+      color: var(
+        --cor-quaternaria
+      ) !important; /* Utilizado para sobrescrever outro important.*/
+    }
+  }
+}
+
+.footer {
+  &&& {
+    background: var(
+      --cor-secundaria
+    ) !important; /* Utilizado para sobrescrever outro important.*/
+  }
+}
+
+.footer .bottom-row {
+  background-color: var(--cor-primaria);
+}
+
+#lias_201387,
+#lias_201389 {
+  background-color: var(--cor-secundaria);
+}
+
+#lias_201408 {
+  border-top: 2px solid var(--cor-terciaria);
+}
+
+.fa.fa-facebook,
+.fa.fa-instagram,
+.fa.fa-blogger-b {
+  color: var(--cor-primaria);
+}
+
+.info-imobiliaria.flutuacao span {
+  color: var(--cor-primaria);
+}
+
+.footer
+  .middle-row.footer-linha[class*="flutuante-fixa-rodape"]
+  span.item-telefone
+  a {
+  &&& {
+    color: var(
+      --cor-primaria
+    ) !important; /* Utilizado para sobrescrever outro important.*/
+  }
+}
+
+/* Estilização da Modal */
+
+.modal-header {
+  background-color: var(--cor-primaria);
+}
+
+.modal-content .modal-header .close {
+  background: var(--cor-secundaria);
+}
+
+.btn.btn-site.confirmar {
+  background: var(--cor-terciaria);
 }
